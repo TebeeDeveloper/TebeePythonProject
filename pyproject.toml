@@ -1,0 +1,42 @@
+# ====================================================================
+# [build-system]: Bảng này là BẮT BUỘC.
+# Nó cho Python biết CÔNG CỤ NÀO sẽ được dùng để đóng gói package này.
+# ====================================================================
+[build-system]
+# Yêu cầu cài đặt các công cụ này trước khi bắt đầu đóng gói
+requires = ["poetry-core>=1.0.0"]
+# Chỉ định backend (công cụ xây dựng) mà Python sẽ gọi
+build-backend = "poetry.core.masonry.api"
+
+
+# ====================================================================
+# [tool.poetry]: Bảng này chứa tất cả METADATA (siêu dữ liệu) của package.
+# Nó là thông tin mà người dùng thấy khi tìm package của anh trên PyPI.
+# ====================================================================
+[tool.poetry]
+name = "enigma"      # Tên gói khi người dùng cài đặt (pip install)
+version = "1.0.0"              # Phiên bản đầu tiên của module
+description = "Bộ tiện ích cơ bản cho dự án Python_Comm của Tebee-kun."
+authors = ["Nghia Tebee <tebee@email.com>"] # Thông tin tác giả
+license = "LicenseRef-CEML"
+readme = "README.md"           # Tệp tin mô tả chính thức
+
+# Yêu cầu về môi trường Python
+[tool.poetry.dependencies]
+python = "^3.10" # Yêu cầu Python 3.10 trở lên
+
+# Các thư viện mà code của anh cần để chạy
+# Ví dụ: nếu anh dùng thư viện 'requests', anh sẽ thêm:
+# requests = "^2.31.0" 
+
+
+# ====================================================================
+# [tool.poetry.group.dev.dependencies]:
+# Các thư viện chỉ dùng khi PHÁT TRIỂN (Development), không cài khi chạy thực tế.
+# Ví dụ: công cụ test, công cụ format code.
+# ====================================================================
+[tool.poetry.group.dev.dependencies]
+# Công cụ kiểm tra code (rất quan trọng cho Clean Code!)
+pytest = "^7.4.0"
+# Công cụ format code (giúp code luôn đẹp)
+black = "^23.9.1"
