@@ -1,0 +1,98 @@
+
+CUSTOM ENIGMA MACHINISM LICENSE - CEML
+LICENSE
+Version: 1.0
+=========================
+I. Copyright Matters
+	[13/12/2025]. All rights reserved.
+	The license is effective starting from the rectification date mentioned above.
+	All violations shall be strictly handled in accordance with International Law and the Laws of Vietnam.
+-	Author: Tebee_Sunaookami - Trần Trung Nghĩa.
+-	Intellectual Property:
+	-	This Module was developed independently based on knowledge of classical cryptography.
+	-	The "Enigma 1000 Rotor Mechanism" is the Author's exclusive design, not copied from any existing commercial or academic Enigma system.
+	-	The use, copying, redistribution, or commercialization of this module without written permission is strictly prohibited.
+-	Permitted Scope of Use by the Author:
+	-	Users are granted the right to download and use this Module free of charge for personal study, individual research, and educational purposes.
+	-	This is permitted provided the user does not create any commercial or competitive product, or redistribute the module without the Author's written permission.
+	-	Copying the source code to use as a basis for another project (Derivative work) is strictly forbidden in all forms, unless there is a separate agreement with the Author.
+-	Non-Permitted Scope of Use:
+	-	Using as a basis for another project.
+	-	Creating a commercial product.
+	-	Creating a competitive product.
+	-	Redistributing the module.
+	-	Misuse/Abuse.
+	-	Use by reactionary/armed organizations.
+-	! Important Warning !
+    -   Any organization/individual that engages in the illegal misuse of this module will be prosecuted under International Law and the Law of Vietnam regarding Cyber Security.
+	-	The Author grants no leniency to any armed organization/individual.
+	-	All intentions of misuse shall be punished by law.
+	-	The use of the module for encrypting internal information (agency, Government) within the country requires written authentication from the Author.
+________________________________________
+II. Governing Law
+-	Official Law: This License (CEML) shall be interpreted and enforced in accordance with the laws of the Socialist Republic of Vietnam.
+-	Jurisdiction: Any disputes, claims, or disagreements arising from or relating to this License shall be resolved in the competent Courts in Vietnam.
+-	International Law: To the extent permitted by Vietnamese law, treaties and rules of International Law on Intellectual Property (such as the Berne Convention) shall be applied supplementarily.
+________________________________________
+III. Introduction to the Classical Enigma (Module Foundation)
+-	Enigma was the cipher machine used by Nazi Germany in World War II.
+-	This machine was of utmost importance in protecting internal information.
+	Alan Turing & Bletchley Park successfully deciphered the code.
+-	Components:
+	-   Keyboard: Input.
+	-   Plugboard/Steckerbrett: Exchanges initial characters, serving as one of the important encryption layers.
+	-   Rotors/Walzen: [Usually 3-5 rotors] Performs substitution permutation.
+	-   Reflector/Umkehrwalze: Ensures the reversibility of the cipher (if A is encoded as B, then B will be encoded as A), but is also a key factor preventing a character from being encoded as itself.
+-	Operating Principle:
+        Keyboard -> Plugboard -> Rotor 1, 2, 3 -> Reflector -> Rotor 3, 2, 1 -> Plugboard -> Lampboard.
+________________________________________
+IV. Module Introduction
+-	Based on the classical Enigma principle, using 1000 rotors to increase the keyspace and complexity of decipherment.
+-	Exclusive Architecture:
+	-	Rotation Mechanism: This is called Double Stepping:
+		-	When rotor n - 1 reaches the notch [Example: X]
+		-	Rotor n rotates 1 step [Example: P 0->1 K]
+	-	Dynamic Plugboard: The plugboard changes daily.
+-	The estimated keyspace is 26^1000. It can be said that this is larger than the number of atoms in the observable universe.
+________________________________________
+V. Basic Usage Guide
+1.	Encryption Guide:
+-	from enigma.machine import EnigmaMachine # Must include.
+-	mc = EnigmaMachine() # Machine initialization function.
+-	mc.set_positions(Rotor positions) # Very important for decryption.
+-	mc.encrypt_text(text to be encrypted) # Encryption function.
+2.	Decryption Guide:
+-	from enigma.machine import EnigmaMachine # Must include.
+-	mc = EnigmaMachine() # This function is called and named mc for ease of use.
+-	mc.set_positions(Rotor positions) # This is the important function; without the correct rotor positions, decryption is impossible.
+-	mc.decrypt(text to be decrypted) # The inverse function of encrypt.
+________________________________________
+VI. Ideas and Additional Features
+-	Performance Optimization: EnigmaGamma Mechanism.
+-	Built entirely using Python and the string library.
+-	Special Features: Supports the ALPHABET character set (A-Z).
+-	Potential Fields and Applications:
+	-	Educational tool for cryptography.
+	-	Use in games and challenge rooms.
+	-	Research on Rotor cipher complexity.
+-	Next Development Ideas:
+	-	Dynamic Reflector.
+	-	Encoding numbers and Vietnamese alphabet characters.
+	-	Encoding Unicode characters.
+________________________________________
+VII. Current Version and Future Projects
+1.	Current Version:
+	-	enigma 1000 rotor V 1.0.0.
+2.	Future Invent:
+	-	enigma 15 rotor V 1.0.0.
+	-	enigma 10 rotor V 1.0.0.
+	-	enigma school learning.
+VIII. Introduction to Future Versions
+1.	enigma 15 rotor V1.0.0: A simplified version.
+2.	enigma 10 rotor V1.0.0: The simplest version.
+3.	enigma school learning: A version for widespread use in schools across Vietnam61. This is the project prioritized for the earliest market development, ensuring cryptography education.
+________________________________________
+IX. Contact and Cooperation
+-	Gmail: tebeebmgo@gmail.com.
+-	GitHub Link: https://github.com/TebeeDeveloper/TebeePythonProject
+=========================
