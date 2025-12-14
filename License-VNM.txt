@@ -1,13 +1,13 @@
 
-						CUSTOM ENIGMA MACHINISM LICENSE - CEML
-    					----          LICENSE	          ----
-    		Version: 1.1
-================================================================
+CUSTOM ENIGMA MACHINISM LICENSE - CEML
+	LICENSE
+Version: 1.0
+======================================
 
 I. Vấn đề bản quyền
     [13/12/2025]. Mọi quyền được bảo lưu.
 	Bắt đầu từ ngày đính chính như trên, giấy phép có hiệu lực.
-	Tất cả trường hợp vi phạm đều phải bị xử lý nghiêm theo pháp luật Quốc tế và Luật Pháp Việt Nam.
+	Tất cả trường hợp vi phạm đều phải bị xử lý nghiêm theo pháp luật Quốc tế và luật pháp Việt Nam.
 
 -   Tác giả: Tebee_Sunaookami - Trần Trung Nghĩa.
 
@@ -16,21 +16,47 @@ I. Vấn đề bản quyền
 
     +   "Cơ chế Enigma 1000 Rotor" là thiết kế độc quyền của tác giả, không sao chép từ bất kỳ hệ thống Enigma thương mại hoặc học thuật hiện có nào.
 
-    +   Việc sử dụng, sao chép hoặc phân phối lại module này mà không có sự cho phép bằng văn bản đều bị nghiêm cấm.
+    +   Việc sử dụng, sao chép hoặc phân phối lại, thương mại hoá module này mà không có sự cho phép bằng văn bản đều bị nghiêm cấm.
 
--	Phạm vi sử dụng được cho phép:
-	+	Người dùng được cấp quyền tải xuống và sử dụng Module này miễn phí cho mục đích học tập, nghiên cứu cá nhân, và giáo dục, miễn là không tạo ra bất kỳ sản phẩm thương mại hoặc phân phối lại module mà không có sự cho phép bằng văn bản của tác giả.
+-	Phạm vi sử dụng được cho phép bởi tác giả:
+	+	Người dùng được cấp quyền tải xuống và sử dụng Module này miễn phí cho mục đích học tập, nghiên cứu cá nhân, và giáo dục, miễn là không tạo ra bất kỳ sản phẩm thương mại hoặc cạnh tranh, phân phối lại module mà không có sự cho phép bằng văn bản của tác giả.
 
 	+	Việc sao chép mã nguồn để sử dụng làm cơ sở cho dự án khác (Derivative work) bị nghiêm cấm dưới mọi hình thức, trừ khi có thỏa thuận riêng với tác giả.
 
+-	Phạm vi sử dụng không được cho phép:
+	+	Làm cơ sở cho dự án khác.
+
+	+	Tạo ra sản phẩm thương mại.
+
+	+	Tạo ra sản phẩm cạnh tranh.
+
+	+	Phân phối lại module.
+
+	+	Lạm dụng. Sử dụng để tấn công mạng, phát tán nội dung độc hại
+
+	+	Tổ chức phản động/Vũ trang.
+	->	Vi phạm giấy phép, xử lý nghiêm theo luật pháp
+
 -	! Cảnh báo quan trọng !
-	+	Bất kỳ tổ chức/cá nhân nào có hành vi lạm dụng trái phép module này đều bị xử lý theo luật pháp Quốc tế và luật pháp Việt Nam về An toàn An Ninh mạng và Bằng sáng chế. Tác giả không nhân nhượng bất kỳ tổ chúc/cá nhân vũ trang nào. Và không sợ tổ chức/cá nhân vũ trang nào. Mọi ý đồ lạm dụng đều phải bị trừng trị theo luật pháp.
+	+	Bất kỳ tổ chức/cá nhân nào có hành vi lạm dụng trái phép module này đều bị xử lý theo luật pháp Quốc tế và luật pháp Việt Nam về An toàn An ninh mạng. Tác giả không nhân nhượng bất kỳ tổ chúc/cá nhân vũ trang nào. Mọi ý đồ lạm dụng đều phải bị trừng trị theo luật pháp.
 
 -	Sử dụng module cho mục đích mã hoá thông tin trong nước (cơ quan, Chính phủ) đều cần văn bản xác thực của tác giả.
 
 ------------------
 
-II. Giới thiệu Enigma cổ điển (nền tảng của module)
+II.	Luật áp dụng
+-	Luật chính thức:
+		Giấy phép này (CEML) sẽ được giải thích và thực thi theo pháp luật của Cộng Hoà Xã Hội Chủ Nghĩa Việt Nam.
+
+-	Tài phán:
+		Bất kỳ tranh chấp, khiếu nại hoặc bất đồng nào phát sinh từ hoặc liên quan đến Giấy phép này sẽ được giải quyết tại Toà án có thẩm quyền tại Việt Nam.
+
+-	Luật Quốc tế:
+		Trong phạm vi được pháp luật Việt Nam cho phép, các điều ước và quy tắc của Luật Pháp Quốc Tế về Sở Hữu Trí Tuệ (như Công ước Berne) sẽ được áp dụng bổ sung.
+
+------------------
+
+III. Giới thiệu Enigma cổ điển (nền tảng của module)
 -   Enigma là máy mật mã của Đức Quốc Xã trong Thế chiến 2.
 
 -   Đây là cổ máy có tầm quan trọng nhất, về việc bảo vệ thông tin nội bộ.
@@ -47,7 +73,7 @@ II. Giới thiệu Enigma cổ điển (nền tảng của module)
 
 ------------------
 
-III. Giới thiệu Module
+IV. Giới thiệu Module
 -   Dựa trên nguyên lý Enigma cổ điển, với 1000 rotor làm tăng không gian khoá (space key) và độ phức tạp khi giải mã.
 
 -   Kiến trúc độc quyền:
@@ -63,7 +89,7 @@ III. Giới thiệu Module
 
 ------------------
 
-IV. Hướng dẫn sử dụng cơ bản
+V. Hướng dẫn sử dụng cơ bản
 
 1.	Hướng dẫn sử dụng mã hoá
 -	from enigma.machine import EnigmaMachine # Bắt buộc phải có
@@ -114,16 +140,24 @@ VI.	Phiên bản hiện hành và dự án tương lai
 1.	Phiên bản hiện hành
 -	enigma 1000 rotor V 1.0.0
 
-2.	Dự án tương lai
+2.	Dự án tương lai (future invent)
 -	enigma 15 rotor V 1.0.0
 
 -	enigma 10 rotor V 1.0.0
 
 -	enigma school learning
 
+VII.	Giới thiệu phiên bản tương lai
+1.	enigma 15 rotor V1.0.0
+	-	Phiên bản đơn giản hoá.
+2.	enigma 10 rotor V1.0.0
+	-	Phiên bản đơn giản nhất.
+3.	enigma school learning
+	-	Phiên bản cho phép sử dụng rộng rãi tại trường học trên cả nước Việt Nam.
+	-	Là dự án được ưu tiên tiến hành phát triển ra thị trường sớm nhất, đảm bảo giáo dục về mật mã học.
 ------------------
-VI. Liên hệ và Hợp tác
+VIII. Liên hệ và Hợp tác
 -   Gmail: tebeebmgo@gmail.com
 -	Link GitHub: https://github.com/TebeeDeveloper/TebeePythonProject
 
-================================================================
+======================================
